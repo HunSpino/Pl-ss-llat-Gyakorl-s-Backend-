@@ -10,6 +10,6 @@ class Pluss extends Model
     use HasFactory;
     protected $fillable = ['name'];
 
-    protected $visible = ['name'];
+    protected $visible = ['id','name'];
 
 }
