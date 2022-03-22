@@ -34,6 +34,10 @@ class PlussController extends Controller
         return response()->json($pluss, 201);
     }
 
+    public function show(Pluss $pluss)
+    {
+        return response()->json($pluss);
+    }
 
     /**
      * Update the specified resource in storage.
